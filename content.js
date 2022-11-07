@@ -1,3 +1,3 @@
 window.onload = () => {
-  document.querySelector('#center').prepend("Dark Mode")
+  document.querySelector('#end').prepend("Dark Mode")
 }

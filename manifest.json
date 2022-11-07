@@ -9,14 +9,16 @@
     ],
     "persistent": false
   },
-  "content_scripts": {
-    "js": [
-      "content.js"
-    ],
-    "matches": [
-      "https://*.youtube.com/*"
-    ]
-  },
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://*.youtube.com/*"
+      ]
+    }
+  ],
   "permissions": [
     "bookmarks"
   ]
