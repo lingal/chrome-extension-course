@@ -16,7 +16,8 @@
       ],
       "matches": [
         "https://*.youtube.com/*"
-      ]
+      ],
+      "exclude_matches": ["https://*.youtube.com/watch*"]
     }
   ],
   "permissions": [

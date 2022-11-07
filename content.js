@@ -1,3 +1,5 @@
 window.onload = () => {
-  document.querySelector('#end').prepend("Dark Mode")
-}
+  const button = document.createElement ('button');
+  button.id = 'darkModeButton';
+  document.querySelector ('#end').prepend (button);
+};

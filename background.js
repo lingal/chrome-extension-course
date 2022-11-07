@@ -3,5 +3,5 @@ chrome.runtime.onInstalled.addListener (() => {
 });
 
 chrome.bookmarks.onCreated.addListener (() => {
-  alert ('bookmard created!');
+  alert ('bookmark created!');
 });
