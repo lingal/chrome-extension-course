@@ -17,10 +17,22 @@
       "matches": [
         "https://*.youtube.com/*"
       ],
-      "exclude_matches": ["https://*.youtube.com/watch*"]
+      "exclude_matches": [
+        "https://*.youtube.com/watch*"
+      ]
     }
   ],
   "permissions": [
-    "bookmarks"
-  ]
+    "bookmarks",
+    "storage"
+  ],
+  "icons": {
+    "16": "iconPlay.png",
+    "48": "iconPlay.png",
+    "128": "iconPlay.png"
+  },
+  "browser_action": {
+    "default_title": "Created by Linas",
+    "default_popup": "popup.html"
+  }
 }
